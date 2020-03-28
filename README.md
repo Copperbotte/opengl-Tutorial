@@ -1,6 +1,7 @@
 # What is this?
-This is an OpenGL tutorial for the C++ programming language in Windows.
+This is a rendering engine tutorial for OpenGL in the C++ programming language in Windows.
 It should also work on Mac with a few compiler and library tweaks.
+It is going to assume you are familiar with the basics of C++, and how to make projects.
 
 
 ## Why make this?
@@ -27,7 +28,7 @@ Be sure "Place solution and project in the same directory" is checked.
 After the project is created, you should see an empty hello world, and a file structure that looks like this:
 ![Created project](images/project.png)
 
-
+<br/>
 ##GLFW
 
 GLFW creates an interface between the OS and OpenGL. To download it, first click this link.
@@ -48,9 +49,9 @@ Extract the contents of the downloaded binaries into the glfw folder. If there a
 
 ![GLFW File path](images/glfw_3.png)
 
-
+<br/>
 ##GLAD
-GLAD is an loader that allows you to use OpenGL functions. We have to set the version to use, and weather we are using compatibility functions, or just the core. To download it, click this link.
+GLAD is an loader that allows you to use OpenGL functions. We have to set the version to use, and whether we are using compatibility functions, or just the core. To download it, click this link.
 [https://glad.dav1d.de](https://glad.dav1d.de)
 
 
@@ -66,5 +67,5 @@ Click on glad.zip to download it.
 Like GLFW above, we want to create a "glad" folder within the gl folder. Extract the contents of the zip so they are as high up as possible within that folder, so it looks like the screenshot.  
 ![GLAD File path](images/glad_3.png)
 
-
+<br/>
 ##Attaching GLAD and GLFW to the project
